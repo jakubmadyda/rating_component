@@ -1,6 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Overpass, sans-serif;
+}
+
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  padding: 15px;
+  border-radius: 100%;
+}
+
+.card {
+  background-color: #1e242e;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 350px;
+  width: 100%;
+  margin: 10px;
+}
+
+.card__text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button__pick {
+  background-color: hsl(213, 19%, 18%);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.button__pick:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.button__pick:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.button__submit {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  width: 100%;
+}
+.button__submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.end {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.end__message {
+  color: hsl(25, 97%, 53%);
+  padding: 5px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  width: 55%;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
