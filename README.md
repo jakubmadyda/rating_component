@@ -1,6 +1,7 @@
 # Rating App
 
 Simple rating component made from design prepared by [Frontend Mentor](https://www.frontendmentor.io/).
+Hosted on [Firebase](https://rating-component-79dc7.web.app/)
 
 ## Technologies
 
